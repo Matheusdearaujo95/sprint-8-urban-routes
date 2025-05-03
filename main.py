@@ -48,4 +48,3 @@ class TestUrbanRoutes:
         # Adicionar em S8
         print("Função criada para verificar se o modelo do carro aparece")
         pass
-class TestUrbanRoutes:
