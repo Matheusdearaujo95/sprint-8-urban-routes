@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Urban Routes Mock</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input, button, textarea { display: block; margin: 10px 0; padding: 10px; width: 300px; }
+  </style>
+</head>
+<body>
+
+  <h1>Simulador Urban Routes</h1>
+
+  <!-- Campos de origem e destino -->
+  <input id="address-from" type="text" placeholder="Endereço de origem">
+  <input id="address-to" type="text" placeholder="Endereço de destino">
+  <button id="route-button">Buscar Rota</button>
+
+  <!-- Campo de telefone -->
+  <input id="phone-input" type="text" placeholder="Telefone">
+  <input id="code-input" type="text" placeholder="Código SMS">
+  <button id="send-sms-button">Enviar SMS</button>
+
+  <!-- Dados do cartão -->
+  <button id="add-card-button">Adicionar Cartão</button>
+  <input id="card-number" type="text" placeholder="Número do Cartão">
+  <input id="card-expiration" type="text" placeholder="Validade (MM/AA)">
+  <input id="card-cvv" type="text" placeholder="CVV">
+  <button id="link-card-button">Vincular</button>
+
+  <!-- Comentário para motorista -->
+  <textarea id="comment-input" placeholder="Comentário para o motorista"></textarea>
+  <button id="send-comment-button">Enviar Comentário</button>
+
+  <!-- Pedidos -->
+  <button id="blanket-checkbox">Cobertor</button>
+  <button id="handkerchiefs-checkbox">Lenços</button>
+
+  <!-- Sorvete -->
+  <button id="ice-cream-button">Pedir Sorvete</button>
+
+  <!-- Modelo do carro -->
+  <div id="car-model">Toyota Corolla</div>
+
+</body>
+</html>
